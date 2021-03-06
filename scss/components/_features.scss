@@ -1,0 +1,43 @@
+.features__items {
+  display: flex;
+  // justify-content: space-between;
+}
+
+.features__intro-heading {
+  font-size: 3.6rem;
+  word-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+
+  &::after {
+    display: block;
+    height: 0.2rem;
+    background-color: var(--color-primary-orange);
+    content: "";
+    width: 10rem;
+    margin: 3rem auto 0rem;
+  }
+}
+
+.features__intro-paragraph {
+  line-height: 3.5rem;
+  font-size: 2.5rem;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.features__items-1-paragraph,
+.features__items-2-paragraph,
+.features__items-3-paragraph,
+.features__items-4-paragraph {
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  width: 85%;
+  text-align: justify;
+  text-justify: auto;
+}

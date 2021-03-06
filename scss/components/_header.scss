@@ -1,0 +1,41 @@
+.header__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+
+  &-heading {
+    color: #fff;
+    font-size: 4.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.4rem;
+    margin-bottom: 2rem;
+  }
+
+  &-links {
+    &-btn {
+      &--full {
+        background-color: var(--color-primary-orange);
+        border-radius: 20rem;
+        color: #fff;
+      }
+
+      &--outline {
+        background-color: transparent;
+        border-radius: 20rem;
+        border: 0.1rem solid var(--color-primary-orange);
+        color: var(--color-primary-orange);
+
+        &:hover,
+        &:active {
+          border: 0.1rem solid var(--color-secondary-orange);
+          color: #fff;
+        }
+      }
+    }
+  }
+}
