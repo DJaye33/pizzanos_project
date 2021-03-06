@@ -128,4 +128,19 @@ h3 {
   text-align: justify;
   text-justify: auto; }
 
+.meals__showcase {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  background-color: var(--color-secondary-orange);
+  overflow: hidden; }
+  .meals__showcase-pics {
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    transition: transform 0.5s;
+    overflow: hidden; }
+    .meals__showcase-pics:hover {
+      transform: scale(1.1); }
+
 /*# sourceMappingURL=main.css.map */
