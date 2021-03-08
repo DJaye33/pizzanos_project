@@ -1,0 +1,22 @@
+.navbar__brand {
+  &-item {
+    height: 15rem;
+    width: auto;
+  }
+}
+
+.navbar__navigation {
+  display: flex;
+  justify-content: space-between;
+
+  &-item {
+    margin-right: 4rem;
+    color: var(--color-primary-medium-gray);
+    font-weight: bold;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--color-secondary-orange);
+    }
+  }
+}

@@ -52,9 +52,12 @@ h3 {
   font-weight: 300;
   text-transform: uppercase; }
 
+a {
+  text-decoration: none; }
+
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/hero_image.jpg");
-  height: 100vh;
+  height: 90vh;
   background-size: cover;
   background-position: top center; }
 
@@ -62,6 +65,34 @@ h3 {
   width: 80%;
   margin: 0 auto;
   padding: 8rem 0; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+  height: 10vh;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.3s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); }
+
+.navbar__brand-item {
+  height: 15rem;
+  width: auto; }
+
+.navbar__navigation {
+  display: flex;
+  justify-content: space-between; }
+  .navbar__navigation-item {
+    margin-right: 4rem;
+    color: var(--color-primary-medium-gray);
+    font-weight: bold;
+    transition: color 0.2s; }
+    .navbar__navigation-item:hover {
+      color: var(--color-secondary-orange); }
 
 .header__info {
   display: flex;
@@ -81,7 +112,8 @@ h3 {
   .header__info-links-btn--full {
     background-color: var(--color-primary-orange);
     border-radius: 20rem;
-    color: #fff; }
+    color: #fff;
+    margin-bottom: 8rem; }
   .header__info-links-btn--outline {
     background-color: transparent;
     border-radius: 20rem;
