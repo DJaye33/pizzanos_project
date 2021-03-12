@@ -16,6 +16,7 @@
   --color-primary-medium-gray: #555;
 
   --color-secondary-orange: #cc561e;
+  --color-secondary-gray: #f4f4f4;
 }
 
 html {
@@ -67,4 +68,10 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+#apple,
+#google {
+  height: 7rem;
+  width: auto;
 }

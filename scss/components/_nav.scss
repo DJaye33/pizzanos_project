@@ -12,7 +12,8 @@
   &-item {
     margin-right: 4rem;
     color: var(--color-primary-medium-gray);
-    font-weight: bold;
+    font-weight: 400;
+    text-transform: uppercase;
     transition: color 0.2s;
 
     &:hover {
