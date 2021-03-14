@@ -1,0 +1,24 @@
+.form__intro-heading {
+  font-size: 4rem;
+  word-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+
+  &::after {
+    display: block;
+    height: 0.2rem;
+    background-color: var(--color-primary-orange);
+    content: "";
+    width: 10rem;
+    margin: 3rem auto 0rem;
+  }
+}
+
+.form__container {
+  border-radius: 0.5rem;
+  background-color: var(--color-secondary-gray);
+  padding: 4rem;
+}

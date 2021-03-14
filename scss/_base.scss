@@ -86,3 +86,44 @@ a {
 .icon-link {
   color: var(--color-primary-orange);
 }
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: var(--color-primary-orange);
+  color: white;
+  padding: 1rem 3rem;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 20rem;
+  outline: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--color-secondary-orange);
+}
+
+::placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+}
+
+select {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+}
