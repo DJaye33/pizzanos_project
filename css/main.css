@@ -24,6 +24,7 @@ body {
   font-weight: 300;
   font-size: 2rem; }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -97,7 +98,8 @@ a {
   margin: 0 auto;
   padding: 8rem 0; }
 
-.steps {
+.steps,
+.plans {
   padding: 8rem 0;
   background-color: var(--color-secondary-gray); }
 
@@ -330,5 +332,65 @@ a {
         height: 5rem;
         border-radius: 50%;
         margin-right: 1rem; }
+
+.plans__intro-heading {
+  font-size: 4rem;
+  word-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem; }
+  .plans__intro-heading::after {
+    display: block;
+    height: 0.2rem;
+    background-color: var(--color-primary-orange);
+    content: "";
+    width: 10rem;
+    margin: 3rem auto 0rem; }
+
+.plans__card {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto; }
+  .plans__card-box {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    width: 30%; }
+    .plans__card-box-price {
+      padding: 1.5rem;
+      border-bottom: 1px solid #e8e8e8; }
+      .plans__card-box-price-monthly {
+        font-size: 6rem;
+        color: var(--color-primary-orange); }
+        .plans__card-box-price-monthly small {
+          font-size: 2rem; }
+    .plans__card-box-details {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid #e8e8e8; }
+      .plans__card-box-details-list {
+        list-style: none; }
+        .plans__card-box-details-list-item {
+          font-size: 2.2rem;
+          padding: 1rem 0; }
+          .plans__card-box-details-list-item i {
+            margin-right: 1.5rem;
+            color: var(--color-primary-orange); }
+    .plans__card-box-wrap {
+      padding: 1.5rem;
+      text-align: center; }
+      .plans__card-box-wrap-btn {
+        background-color: var(--color-primary-orange);
+        border-radius: 20rem;
+        color: #fff; }
+        .plans__card-box-wrap-btn--outline {
+          background-color: transparent;
+          border-radius: 20rem;
+          border: 0.1rem solid var(--color-primary-orange);
+          color: var(--color-primary-orange); }
+          .plans__card-box-wrap-btn--outline:hover, .plans__card-box-wrap-btn--outline:active {
+            border: 0.1rem solid var(--color-secondary-orange);
+            color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

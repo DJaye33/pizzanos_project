@@ -1,0 +1,85 @@
+.plans__intro-heading {
+  font-size: 4rem;
+  word-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+
+  &::after {
+    display: block;
+    height: 0.2rem;
+    background-color: var(--color-primary-orange);
+    content: "";
+    width: 10rem;
+    margin: 3rem auto 0rem;
+  }
+}
+
+.plans__card {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  &-box {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    width: 30%;
+
+    &-price {
+      padding: 1.5rem;
+      border-bottom: 1px solid #e8e8e8;
+
+      &-monthly {
+        font-size: 6rem;
+        color: var(--color-primary-orange);
+
+        & small {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    &-details {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid #e8e8e8;
+      &-list {
+        list-style: none;
+
+        &-item {
+          font-size: 2.2rem;
+          padding: 1rem 0;
+
+          & i {
+            margin-right: 1.5rem;
+            color: var(--color-primary-orange);
+          }
+        }
+      }
+    }
+
+    &-wrap {
+      padding: 1.5rem;
+      text-align: center;
+      &-btn {
+        background-color: var(--color-primary-orange);
+        border-radius: 20rem;
+        color: #fff;
+
+        &--outline {
+          background-color: transparent;
+          border-radius: 20rem;
+          border: 0.1rem solid var(--color-primary-orange);
+          color: var(--color-primary-orange);
+
+          &:hover,
+          &:active {
+            border: 0.1rem solid var(--color-secondary-orange);
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
